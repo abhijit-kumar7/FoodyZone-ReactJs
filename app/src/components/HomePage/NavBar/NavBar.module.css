@@ -1,0 +1,29 @@
+.navigation {
+    min-height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .search input {
+    background-color: transparent;
+    border: 1px solid red;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  
+  .search input::placeholder {
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    .navigation {
+      flex-direction: column;
+      height: 120px;
+    }
+  }
+  
